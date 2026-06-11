@@ -1,0 +1,6 @@
+{
+  "name": "Hunarmand",
+  "description": "Hunarmand (ہنرمند) — A premium directory and showcase platform for vetted Pakistani home and office service contractors, commercial builders, and skilled artisans, built with direct peer-to-peer WhatsApp channels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
