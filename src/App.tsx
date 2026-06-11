@@ -12,6 +12,7 @@ import { CategoryFilter } from "./components/CategoryFilter";
 import { ContractorCard } from "./components/ContractorCard";
 import { ContractorDetails } from "./components/ContractorDetails";
 import { JoinGuildForm } from "./components/JoinGuildForm";
+import hunarmandLogo from "./assets/images/hunarmand_pakistan_logo_1781124871123.png";
 
 export default function App() {
   // 1. Core State with Local Storage Synchronization
@@ -147,7 +148,7 @@ export default function App() {
         <div className="flex items-center gap-3 cursor-pointer" onClick={() => { setSelectedContractorId(null); setIsProviderOffice(false); }}>
           <div className="w-12 h-12 rounded-xl overflow-hidden shadow-xs border border-neutral-200/50 flex items-center justify-center shrink-0 bg-white p-1 transition-transform hover:scale-105 duration-200">
             <img
-              src="/src/assets/images/hunarmand_pakistan_logo_1781124871123.png"
+              src={hunarmandLogo}
               alt="Hunarmand Logo"
               referrerPolicy="no-referrer"
               className="w-full h-full object-contain"
@@ -443,7 +444,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 rounded-md overflow-hidden bg-white border border-neutral-200/60 p-0.5 flex items-center justify-center shrink-0">
               <img
-                src="/src/assets/images/hunarmand_pakistan_logo_1781124871123.png"
+                src={hunarmandLogo}
                 alt="Hunarmand Logo"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-contain"
