@@ -24,10 +24,13 @@ jobs:
           node-version: 18
           cache: 'npm'
 
+      - name: Upgrade npm ⚙️
+        run: npm install -g npm@latest
+
       - name: Install and Build 🔧
         run: |
           rm -f package-lock.json
-          npm install
+          npm install --force
           npm run build
 
       - name: Deploy 🚀
